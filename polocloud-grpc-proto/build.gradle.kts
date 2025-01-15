@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "dev.httpmarco.poloclouud"
+group = "dev.httpmarco.polocloud"
 version = "1.0.0"
 
 repositories {

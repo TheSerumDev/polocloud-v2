@@ -1,13 +1,10 @@
 plugins {
-    id("java-library")
+    id("java")
 }
 
-dependencies {
-    compileOnlyApi(libs.annotations)
-    annotationProcessor(libs.lombok)
-    compileOnly(libs.lombok)
-}
+group = "dev.httpmarco.polocloud"
+version = "1.0.0"
 
-tasks.jar {
-    archiveFileName.set("polocloud-api-${version}.jar")
+repositories {
+    mavenCentral()
 }
