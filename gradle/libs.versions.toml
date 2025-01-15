@@ -14,6 +14,12 @@ grpc = "1.69.0"
 annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
 lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
 
+# Networking
+grpc-netty =  { group = "io.grpc", name = "grpc-netty-shaded", version.ref = "grpc" }
+grpc-protobuf =  { group = "io.grpc", name = "grpc-protobuf", version.ref = "grpc" }
+grpc-stub =  { group = "io.grpc", name = "grpc-stub", version.ref = "grpc" }
+
 
 [bundles]
 utils = ["annotations", "lombok"]
+grpc = ["grpc-netty", "grpc-protobuf", "grpc-stub"]
