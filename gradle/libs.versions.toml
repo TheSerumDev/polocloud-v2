@@ -6,6 +6,9 @@ version = "1.0"
 annotations = "26.0.1"
 lombok = "1.18.36"
 
+# Networking
+grpc = "1.69.0"
+
 [libraries]
 # Code quality
 annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }

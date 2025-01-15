@@ -5,6 +5,7 @@ version = "1.0.0"
 
 subprojects {
 
+    group = "dev.httpmarco.polocloud"
     version = rootProject.version
 
     repositories {
