@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.protobuf:protobuf-java:4.29.3")
     implementation("io.grpc:grpc-protobuf:1.69.0")
     implementation("io.grpc:grpc-services:1.69.0")
     implementation("io.grpc:grpc-stub:1.69.0")
@@ -19,7 +18,7 @@ dependencies {
 protobuf {
     protobuf {
         protoc {
-            artifact = "com.google.protobuf:protoc:4.29.3"
+            artifact = "com.google.protobuf:protoc:3.25.5"
         }
         plugins {
             id("grpc") {
